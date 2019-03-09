@@ -39,12 +39,6 @@ class Lenkeliste<T> implements Liste<T> {
             nyNode.forrige = q;
             q.neste = nyNode;
             nodePos.forrige = nyNode;
-
-            /*
-            nodePos.forrige.neste = nyNode;
-            nodePos.forrige = nyNode;
-            nyNode.neste = nodePos;
-            nyNode.forrige = nodePos.forrige;*/
         }
 
         iBruk++;
